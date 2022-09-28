@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site-contato</title>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="assets/PngItem_1951323.png" width="200" alt="Logo company">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="inicio.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h1>Formulario de contato</h1>
+                <p>Peencha os dados abaixo. </p>
+                <fieldset>
+                    <legend>
+                        <h5>Dados de Contato</h5>
+                    </legend>
+                    <form action="contato" id="inscricao" method="post">
+                        <label for="">Nome completo:</label><br>
+                        <input type="text" required="required"><br><br>
+
+                        
+                        <label for="">Data de Nascimento:</label><br>
+                        <input type="date" name="data" id="idData" required="required"><br><br>
+                        
+                        <label for="">Sexo:</label><br>
+                        <input type="radio" name="select" id="masc" required="required">
+                        <label for="">Masculino</label> 
+                        <input type="radio" name="select" id="femi" required="required">
+                        <label for="">Feminino</label><br><br>
+
+                        <label for="">Endereço:</label><br>
+                        <input type="text" id="endereco" required="required"><br><br>
+
+                        <label for="estado">Estado:</label><br>
+                        <select name="estado" id="std" required="required">
+                            <option value="">Selecione o estado:</option>
+                            <option value="">SC</option>
+                            <option value="">PR</option>
+                            <option value="">RS</option>
+
+                        </select><br><br>
+                        <label for="cidade">Cidade:</label><br>
+                        <select name="cidade" id="cit" required="required">
+                            <option value="">Selecione a cidade </option>
+                            <option value="">Florianópolis</option>
+                            <option value="">Curitiba</option>
+                            <option value="">Porto Alegre</option>
+
+                        </select><br><br>
+
+
+                        <label for="e-mail">E-mail:</label><br>
+                        <input type="email" placeholder="email@email.com" name="e-mail" id="eMail" required="required"></form><br>
+
+                        <label for="telefone">Celular:</label><br>
+                        <input type="text" id="telefone" name="telefone" placeholder="(xx)xxxx-xxxx" required="required"><br><br>
+
+                        <label for="interesse">Área de Interesse:</label><br>
+                        <input type="checkbox" name="opcoes" value="html"/> HTML
+                        <input type="checkbox" name="opcoes" value="css"/> CSS
+                        <input type="checkbox" name="opcoes" value="javascript"/> JavaScript<br><br>
+
+                        <label for="msm">Mensagem:</label><br>
+                        <textarea name="mensagem" id="txtmsm" cols="30" rows="10" placeholder="Deixe aqui sua mensagem." required="required"></textarea><br><br>
+
+                        <input type="button" value="Enviar">
+                    </form>
+                </fieldset>
+
+
+            </section>
+        </article>
+    </main>
+   <footer>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/">
+                    <img src="assets/instagran.png" width="40" alt="Instagran">
+                </a>
+                
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/">
+                    <img src="assets/facebook.png" width="40" alt="Facebook">
+                </a>
+                
+            </li>
+
+            <li>
+                <a href="https://twitter.com">
+                    <img src="assets/twitter.png" width="40" alt="Twitter">
+                </a>
+                
+            </li>
+        </ul>
+
+    </footer>
+</body>
+</html>
